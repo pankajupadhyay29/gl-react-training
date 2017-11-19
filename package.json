@@ -1,0 +1,32 @@
+{
+  "name": "gl-react-training",
+  "version": "1.0.0",
+  "description": "A repo for react training",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankajupadhyay29/gl-react-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pankajupadhyay29/gl-react-training/issues"
+  },
+  "homepage": "https://github.com/pankajupadhyay29/gl-react-training#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.9.4",
+    "babel-loader": "^7.1.2"
+  }
+}
