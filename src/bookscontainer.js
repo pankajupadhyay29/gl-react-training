@@ -20,7 +20,7 @@ export class BooksContainer extends Component {
   render() {
     return (
       <div> 
-        <BookList selectBook={this.selectBook} books={this.state.books}/>
+        <BookList selectBook={this.selectBook} selectedBook= {this.state.selectedBook} books={this.state.books}/>
         <hr/>
         <BookDetail book={this.state.selectedBook}/>
       </div>
